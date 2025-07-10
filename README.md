@@ -1,4 +1,4 @@
-**Deploying Next.js App with PM2 + Nginx + SSL (Let's Encrypt)**
+# **Deploying Next.js App with PM2 + Nginx + SSL (Let's Encrypt)**
 
 * * * * *
 

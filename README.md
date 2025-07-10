@@ -15,14 +15,12 @@
 -   Install dependencies:\
     `npm install`
 
-* * * * *
 
 ### 2\. Build Your Next.js App for Production
 
 Run the build command to generate the optimized production build:\
 `npm run build`
 
-* * * * *
 
 ### 3\. Start Your Next.js App with PM2
 
@@ -40,7 +38,6 @@ pm2 start npm --name devspark-next -- start --cwd /var/www/devspark/portfolio-fr
 
 ```
 
-* * * * *
 
 ### 4\. Basic PM2 Commands
 
@@ -63,7 +60,6 @@ pm2 start npm --name devspark-next -- start --cwd /var/www/devspark/portfolio-fr
 After starting your app, check it's running:\
 `curl http://localhost:3000`
 
-* * * * *
 
 ### 5\. Set Up Nginx as a Reverse Proxy
 
@@ -120,7 +116,6 @@ sudo systemctl reload nginx
 
 At this point, visiting `http://your-domain.com` will proxy requests to your Next.js app on port 3000.
 
-* * * * *
 
 ### 6\. Enable SSL with Let's Encrypt (Certbot)
 
@@ -156,7 +151,6 @@ sudo certbot renew --dry-run
 
 ```
 
-* * * * *
 
 ### 7\. Final Check
 
@@ -166,7 +160,6 @@ sudo certbot renew --dry-run
 
 -   Nginx manages SSL and proxying for better performance and security.
 
-* * * * *
 
 ### 8\. Optional: Set PM2 to Start on Server Boot
 
@@ -180,7 +173,6 @@ pm2 save
 
 This sets up your app to auto-start when the server reboots.
 
-* * * * *
 
 **Summary:**
 
